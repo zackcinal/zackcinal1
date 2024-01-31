@@ -1,1 +1,119 @@
+* {
+  font-family: "Space Grotesk", sans-serif;
+  color: #607274;
+}
+body {
+  background-color: #faeed1;
+}
 
+.name {
+  text-align: center;
+  padding: 20px 0 20px 20px;
+}
+
+.name:hover {
+  color: #0f2c59;
+  text-decoration: underline;
+  transition: 1.5s;
+}
+
+.about-me {
+  text-align: left;
+  text-decoration: underline;
+  padding: 10px 0 10px 20px;
+}
+.about-me:hover {
+  color: #0f2c59;
+  transition: 1s;
+}
+
+.about-me-p {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.hobbies {
+  text-align: left;
+  text-decoration: underline;
+  padding: 20px 0 0 20px;
+}
+
+.hobbies:hover {
+  color: #0f2c59;
+  transition: 1s;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+  justify-content: space-evenly;
+}
+
+li {
+  cursor: pointer;
+}
+
+.ga-span:hover {
+  color: red;
+  transition: 1s;
+  text-decoration: underline;
+}
+
+.ga-link {
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+.f1-div {
+  text-align: left;
+}
+
+.f1-div:hover + .hide {
+  display: block;
+}
+
+.movies-div {
+  text-align: left;
+}
+
+.giphy-movie {
+  display: block;
+}
+
+.photography-div {
+  text-align: left;
+}
+
+.photography-div:hover + .hide {
+  display: block;
+}
+
+.giphy-movie {
+  display: block;
+}
+
+.fav-movies,
+.fav-f1,
+.photos {
+  text-decoration: underline;
+}
+
+.footer-div {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 10px;
+  background-color: #c6a969;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  body {
+    background-color: white;
+  }
+}
