@@ -18,17 +18,18 @@ body {
 }
 
 .about-me {
-  text-align: left;
+  text-align: center;
   text-decoration: underline;
   padding: 10px 0 10px 20px;
 }
 .about-me:hover {
   color: #0f2c59;
+  font-size: x-large;
   transition: 1s;
 }
 
 .about-me-p {
-  text-align: left;
+  text-align: center;
   padding-left: 20px;
 }
 
@@ -40,6 +41,7 @@ body {
 
 .hobbies:hover {
   color: #0f2c59;
+  font-size: x-large;
   transition: 1s;
 }
 
@@ -47,16 +49,21 @@ ul {
   list-style-type: none;
   display: block;
   justify-content: space-evenly;
+  text-align: left;
 }
 
 li {
   cursor: pointer;
 }
 
+.ga-span {
+  text-decoration: underline;
+}
+
 .ga-span:hover {
   color: red;
   transition: 1s;
-  text-decoration: underline;
+  font-size: larger;
 }
 
 .ga-link {
@@ -68,7 +75,7 @@ li {
 }
 
 .f1-div {
-  text-align: left;
+  text-align: center;
 }
 
 .f1-div:hover + .hide {
